@@ -1,0 +1,67 @@
+                                                          JAVA CODE EXECUTE
+work Flow:
+
+.java file (human readable file)  = compiler(enter file)>   classFile(byte code)  =interpreter(line by line)>  machine code(0 and 1)   
+
+this code will not directly run on a system
+we need jvm to run the byte code line by line so this is the platform independent
+
+
+JDK
+- Provides environment to develop and run the Java program
+- It is a package that includes:
+1. development tools - to provide an environment to develop your program
+2. JRE to execute your program
+3. a compiler - javac
+4. archiver - jar
+5. docs generator - javadoc
+6. interpreter/loader
+
+JRE
+It is an installation package that provides environment to only run the program
+It consists of:
+1. Deployment technologies
+2. User interface toolkits
+3. Integration libraries
+4. Base libraries
+5. JVM
+After we get the class file, the next things happen at runtime:
+class loader loads all classes needed to execute the program.
+2. JVM sends code to Byte code verifier to check the format of code
+
+
+
+Compile time > java file > javac (compilation) >.class file
+  
+
+  Runtime > class Loader > Byte code verifier > Interpreter > Runtime Hardware
+
+
+(How JVM works) class Loader
+Loading:
+- reads .class file and generate binary data
+- an object of this class is created in heap
+Linking
+- JVM verifies the class file
+·allocates memory for class variables
+& default values
+replace symbolic references from the type
+with direct references.
+- Initialization
+all static variables are assigned with their
+values defined in the code and static block
+JVM contains the Stack and Heap memory allocations.
+
+
+
+JVM Execution
+Interpreter:
+- Line by line execution
+- when one method is called many times,
+it will interpret again and again
+JIT:
+- those methods that are repeated,
+JIT provides direct machine code
+so re-interpretation is not required.
+- makes execution faster
+Garbage collector
