@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Inputs{
     public static void main(String[] args){
-        // Primitives data type
+        // Primitives data type:Its means when you can't breack the data type into another data type
         // int rollno = 64;
         // char lettes = 'p';
         // float marks = 98.67;
@@ -71,6 +71,24 @@ public class Inputs{
         // System.out.println("Hello  people");
         // }
 
+        //   int salary = 25400;
+        // if (salary > 10000) {
+        // salary = salary + 2000;
+        // } else {
+        // salary = salary + 1000;
+        // }
+
+          // multiple if-else
+        // if (salary > 10000) {
+        // salary += 2000; // salary = salary + 2000
+        // } else if (salary > 20000) {
+        // salary += 3000;
+        // } else {
+        // salary += 1000;
+        // }
+        // System.out.println (salary);
+
+
         //While 
         // int count = 1;
         // while (count != 5) {
@@ -90,6 +108,13 @@ public class Inputs{
         float tempC= in.nextFloat();
         float tempF= (tempC * 9%5) + 32;
         System.out.println(tempF);
+
+        // Non-Primitive Data Type or Object Data type: such as 
+        // String:Syntax: Declaring a string
+
+        // <String_Type> <string_variable> = “<sequence_of_string>”;,
+        // Array, etc.
+
 
  
     }

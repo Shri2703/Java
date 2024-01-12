@@ -1,4 +1,4 @@
-                                                          JAVA CODE EXECUTE
+ JAVA CODE EXECUTE
 work Flow:
 
 .java file (human readable file)  = compiler(enter file)>   classFile(byte code)  =interpreter(line by line)>  machine code(0 and 1)   
