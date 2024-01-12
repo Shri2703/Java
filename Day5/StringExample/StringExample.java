@@ -10,6 +10,7 @@ public  class StringExample {
         String naam = in.next();
         String personalised = myGreet(naam);
         System.out.println(personalised);
+        
     }
 
     static String myGreet(String name) {
