@@ -9,6 +9,7 @@ public class Calculator {
             // take the operator as input
             System.out.print("Enter the operator: ");
             char op = in.next().trim().charAt(0);
+            
 
             if (op == '+' || op == '-' || op == '*' || op == '/' || op == '%') {
                 // input two numbers

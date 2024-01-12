@@ -132,6 +132,8 @@ public class Loops {
         // System.out.println(count);
 
         //reverse
+
+        
         int num = 123456;
 
         int ans = 0;
