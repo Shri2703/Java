@@ -109,6 +109,8 @@ public class Inputs{
         float tempF= (tempC * 9%5) + 32;
         System.out.println(tempF);
 
+        
+
         // Non-Primitive Data Type or Object Data type: such as 
         // String:Syntax: Declaring a string
 
