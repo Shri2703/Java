@@ -13,6 +13,8 @@ public  class StringExample {
         
     }
 
+
+
     static String myGreet(String name) {
         String message = "Hello " + name;
         return message;

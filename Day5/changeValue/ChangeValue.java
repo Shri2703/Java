@@ -8,6 +8,7 @@ public class ChangeValue{
         System.out.println(Arrays.toString(arr));
     }
 
+
     static void change(int[] nums) {
         nums[0] = 99; // if you make a change to the object via this ref variable, same object will be changed
     }

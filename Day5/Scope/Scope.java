@@ -35,5 +35,7 @@ public class Scope {
     }
 }
 
+
+
 /* Any thing intialised outside a box can be use it inside a box,available inside a box,updated insiide a box original one will be updated and can't intialises again in rhe inside box
 any thing intialised inside a box can be initialised outside a box but we cand use it outside and only used inside a box so we can't ascess that outside a box beacause outside a scope can't know about it initiasilation  */
