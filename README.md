@@ -1,1 +1,1 @@
-# Java BASIC & DSA
+# Java Basic & DSA
