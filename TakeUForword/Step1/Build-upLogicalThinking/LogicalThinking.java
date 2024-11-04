@@ -285,6 +285,58 @@ public class LogicalThinking{
     // A B C
     // A B
     // A
+    // static void Pattern1(int num){
+    //     for (int i = 0;i< num;i++){
+    //         for (int j = 0;j<= i;j++){
+    //             System.out.print((char)('A' + i) + " ");
+    //         }
+    //         System.out.println();
+    //     }
+    // }
+    // A
+    // B B
+    // C C C
+    // D D D D
+    // E E E E E 
+
+    // static void Pattern1(int num){
+    //     for (int i = 0;i< num;i++){
+    //         for (int j = 1;j<= num-i;j++){
+    //             System.out.print((char)('A' + i) + " ");
+    //         }
+    //         System.out.println();
+    //     }
+    // }
+    // A A A A A
+    // B B B B
+    // C C C
+    // D D
+    // E
+    // static void Pattern1(int num){
+    //     for (int i = 0 ;i< num;i++){
+    //         for (int j = 0;j< num-i-1 ;j++){
+    //             System.out.print(" ");
+    //         }
+    //         char ch = 'A';
+    //         int bp = (2*i+1)/2;
+    //         for(int j = 1; j <= 2*i+1;j++){
+    //             System.out.print(ch);
+    //             if( j <= bp) ch++;
+    //             else ch--;
+    //         }
+    //         for (int j = 0;j< num-i-1 ;j++){
+    //             System.out.print(" ");
+    //         }
+    //         System.out.println();
+    //     }
+        
+    // }
+    //     A
+    //    ABA
+    //   ABCBA
+    //  ABCDCBA
+    // ABCDEDCBA
+
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
