@@ -16,6 +16,7 @@ public class Gcd{
         System.out.println("Enter the second number:");
         int num2 = sc.nextInt();
         int gcd = FindGcd(num1,num2);
+   
         System.out.println("GCD of "+num1+ " and "+ num2+" is "+gcd);
 
     }
